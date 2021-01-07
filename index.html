@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="navbar">
+      <h1>Gift Helper</h1>
+      <ul>
+        <li>About</li>
+        <li>Sign up/Sign In</li>
+      </ul>
+    </header>
+    <div class="back-button-bar">
+      <button><- Back</button>
+    </div>
+    <section class="add-new-tag-section">
+      <form id="add-tag-form">
+        <div>
+          <label for="tag-name">Gift Name:</label>
+          <input
+            placeholder="Tag Name Here"
+            type="text"
+            name="tag-name"
+            id="tag-name"
+            required
+          />
+        </div>
+        <div class="add-gift-add-tag">
+          <label for="add-new-tag-to-gift">Add tag to existing gift(s):</label>
+          <select id="add-new-tag-to-gift" name="add-new-tag-to-gift">
+            <option value=""></option>
+            <option value="">GIFT NAME HERE</option>
+            <option value="">GIFT NAME HERE</option>
+            <option value="">GIFT NAME HERE</option>
+          </select>
+        </div>
+        <button type="submit-new-tag">Create Tag</button>
+      </form>
+    </section>
+  </body>
+</html>
